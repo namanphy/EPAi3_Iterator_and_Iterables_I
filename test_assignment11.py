@@ -11,7 +11,7 @@ import math
 
 
 def test_readme_exists():
-    assert os.path.isfile("README.md"), "README.md file missing!"
+    assert os.path.isfile("readme.md"), "readme.md file missing!"
 
 
 def test_function_name_had_cap_letter():
